@@ -85,6 +85,25 @@ nav ul li:hover {
     text-decoration: none;
 }
 
+.barra-iconos{
+    margin: auto;
+    width: 100px;
+    height: 60px;
+}
+
+.logo-github{
+    margin-top: 15px;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.logo-instagram{
+    margin-top: 15px;
+    width: 30px;
+    height: 30px;
+}
+
 .footer {
     margin: auto;
     width: 100%;
