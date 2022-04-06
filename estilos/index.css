@@ -19,7 +19,7 @@ header{
 .nav {
     margin: auto;
     width: 50%;
-    height: 40px;
+    height: 50px;
     padding-top: 5px;
     text-align: center;
 }
@@ -62,7 +62,7 @@ nav ul li:hover {
 .caja-portada{
     text-align: left;
     color: #ffffff;
-    margin-left: 15%;
+    margin-left: 8%;
     margin-top: 160px;
 }
 
@@ -73,7 +73,7 @@ nav ul li:hover {
 .boton-curso{
     margin-top: 15px;
     padding-top: 10px;
-    width: 100px;
+    width: 200px;
     height: 40px;
     background-color: #660066;
     border-radius: 15px;
@@ -91,17 +91,11 @@ nav ul li:hover {
     height: 60px;
 }
 
-.logo-github{
+.logos-img{
     margin-top: 15px;
     width: 30px;
     height: 30px;
     margin-right: 5px;
-}
-
-.logo-instagram{
-    margin-top: 15px;
-    width: 30px;
-    height: 30px;
 }
 
 .footer {
@@ -122,15 +116,39 @@ nav ul li:hover {
     color: #ffcc33;
 }
 
-@media (max-width: 400px){
-.barra-superior { 
+@media (max-width: 700px){
+header {
+
+    width: 100%;
+    height: 50px;
+    padding-top: 8px;
+}
+
+.nav {
     margin: auto;
-    width: 69%;
-    height: 90px;
-    margin-top: 20px;
-    background-color: #ffffff;
+    width: 90%;
+    height: 40px;
+    padding-top: 5px;
+    text-align: center;
+}
 
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding-top: 4px;
+    width: 77px;
+    height: 35px;
+    background-color: #000033;
+    padding-top: 9px;
+}
 
-   } 
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    background-color: #cc6699;
+}
 }
     
